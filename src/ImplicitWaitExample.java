@@ -27,7 +27,7 @@ driver.findElement(By.id("loginButton")).click();
 String name=driver.getTitle();
 System.out.println(name);
 /*
-WebDriverWait wait=WebDriverWait(driver,10);
+WebDriverWait wait=WebDriverWait(driver,5);
 wait.until(ExpectedCondition.ImplicitWaitExample("track"));
 */
 
